@@ -8,11 +8,11 @@ int main(int argc, char const *argv[]) {
   cin >> m;
   int  VV = 0;
   if (m < 100) VV = 0;
-  else if (100 <= m && m <= 5000) VV = m / 100;
-  else if (6000 <= m && m <= 30000) VV = m / 1000 + 50;
-  else if (35000 <= m && m <= 70000) VV = (m / 1000 - 30) / 5 + 80;
+  else if (m <= 5000) VV = m / 100;
+  else if (m <= 30000) VV = m / 1000 + 50;
+  else if (m <= 70000) VV = (m / 1000 - 30) / 5 + 80;
   else VV = 89;
 
-  printf("%02d", VV);
+  printf("%02d\n", VV);
   return 0;
 }
