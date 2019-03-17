@@ -1,3 +1,4 @@
+//愚直すぎてTLEしたやつ
 #include <iostream>
 #include <vector>
 #include <algorithm>
