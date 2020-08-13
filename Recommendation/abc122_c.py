@@ -20,3 +20,7 @@ for i in range(len(s)-1, -1, -1):
 for i in range(q):
     l, r = [int(w)-1 for w in input().split()]
     print(c_ac[l]-c_ac[r])
+
+"""
+これまでに出現したACの数を数えたほうが楽
+"""
